@@ -12,7 +12,7 @@ class child(parent):
     def __init__(self, name):
         self.name = name
         print("継承で子供を作りました。")
-    
+
     #weightの追加（メソッドの追加)
     def weight(self, g):
         self.g = g
